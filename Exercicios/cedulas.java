@@ -10,6 +10,7 @@ public class cedulas {
 
     int notas100 = valor / 100;
     int resto = valor % 100;
+    
     int notas50 = resto / 50;
     resto = resto % 50; 
     int notas20 = resto / 20;
